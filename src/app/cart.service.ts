@@ -1,4 +1,3 @@
-import { Injectable } from '@angular/core';
 import { Product } from './products';
 /* . . . */
 export class CartService {
