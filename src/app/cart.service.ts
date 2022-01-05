@@ -1,5 +1,5 @@
 import { Product } from './products';
-/* . . . */
+
 export class CartService {
   items: Product[] = [];
   /* . . . */
@@ -16,4 +16,5 @@ export class CartService {
     this.items = [];
     return this.items;
   }
+  /* . . . */
 }
